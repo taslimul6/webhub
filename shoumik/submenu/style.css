@@ -1,0 +1,72 @@
+body{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    margin: 0;
+}
+.header {
+    
+    background: #27ae60;
+}
+
+
+
+.header:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.header ul{
+    margin: 0;
+
+    list-style: none;
+}
+
+    
+.header > ul > li{
+
+ 
+    float: left;
+    position: relative;
+
+}
+
+.header ul li a {
+	text-decoration: none;
+	padding: 10px 20px;
+	text-transform: capitalize;
+	font-size: 18px;
+	color: white;
+	display: block;
+}
+.header ul li:hover a{
+    background: #2c3e50;
+}
+
+
+
+.select{
+    background: #2c3e50;
+}
+
+/* sub area */
+
+header ul ul{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    min-width: 140px;
+    background: #3498db;
+ 
+    padding: 0;
+}
+.header ul li:hover > ul {
+	display: block;
+}
+
+
+header ul ul li{
+    white-space: nowrap;
+}

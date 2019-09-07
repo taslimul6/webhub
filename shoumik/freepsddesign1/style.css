@@ -1,0 +1,320 @@
+body{
+    margin: 0;
+    font-family: segoe ui;
+}
+.con{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+.header{
+    background: #23232d;
+    color: #ffffff;
+    text-align: center;
+}
+
+.logo img{
+    width: 100px;
+    margin-top: 50px;
+
+}
+header h2{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+header p {
+	font-size: 10px;
+	margin: 0 331px;
+	display: inline-block;
+	margin-bottom: 90px;
+}
+.next a{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+   border:1px solid #ffffff;
+   margin-bottom: 25px;
+}
+
+
+/* des area */
+.about {
+    margin-bottom: 45px;
+    
+    background-image: url(images/back.png);
+    background-image: cover;
+}
+.des {
+	text-align: center;
+	font-size: 14px;
+	color: #181616;
+	margin: 25px 225px;
+	overflow: hidden;
+	/* font-weight: 100; */
+}
+.des p {
+	margin: 40px 0;
+    line-height: 22px;
+    color:#464b4f;
+}
+
+.about h2 {
+	text-transform: uppercase;
+	font-size: 35px;
+	text-align: center;
+    margin-bottom: 65px;
+    color: #464b4f;
+}
+.col1{
+    width: 31%;
+    float: left;
+    overflow: hidden;
+    margin-right: 3.5%;
+}
+.col1:last-child{
+    margin-right: 0%;
+}
+.col1 b{
+    text-transform: uppercase;
+    color: #464b4f;
+}
+.col1 p{
+   font-size: 12px;
+   color:#888a8b;
+}
+
+
+.work
+{
+    overflow: hidden;
+}
+
+
+/* work area */
+
+
+.work{
+    background: #23232d;
+    overflow: hidden;
+}
+
+.work h2 {
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 45px;
+	margin-top: 45px;
+}
+.menu {
+	overflow: hidden;
+	
+}
+.menu ul{
+
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    list-style: none;
+    text-transform: capitalize;
+  
+}
+.menu ul li {
+	display: inline;
+	padding: 0 25px;
+}
+
+.current{
+    border-bottom: 2px solid #7C77C9;
+}
+
+.col2 {
+	width: 30%;
+	overflow: hidden;
+	float: left;
+	margin-right: 3.33%;
+	margin-top: 35px;
+}
+.col2 img{
+   width: 100%;
+   height: auto;
+}
+
+.col2 p {
+	overflow: hidden;
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.col2 a{
+    text-decoration: none;
+    color: #818baa;
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+.colm {
+	margin-bottom: 70px;
+	overflow: hidden;
+}
+
+.button {
+	text-align: center;
+	margin-bottom: 70px;
+}
+.button a {
+	text-decoration: none;
+	background: #7b77c9;
+	text-transform: capitalize;
+	padding: 8px 35px;
+	border: 1px solid #ddd;
+color: white;
+	/* margin-bottom: 18px; */
+	border-radius: 5px;
+}
+
+
+
+
+/* photo */
+
+
+.photo{
+    text-align: center;
+    background-image: url(images/back.png);
+    background-image: cover;
+}
+
+
+
+
+
+
+
+
+
+
+.photo h2 {
+	text-align: center;
+	text-transform: uppercase;
+    font-size: 50px;
+    color: #464b4f;
+}
+.photo p {
+	margin: 30px 273px;
+	font-size: 14px;
+    overflow: hidden;
+    color: #888a8b;
+}
+
+.colm2 {
+	overflow: hidden;
+	margin-bottom: 70px;
+}
+.col3{
+	width: 31.33%;
+	overflow: hidden;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+.col3 img{
+    width: 100%;
+    height: auto;
+	
+}
+
+.photo a {
+	text-transform: capitalize;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 10px 24px;
+	background:#7b77c9;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	/* margin-bottom: 20px; */
+	display: inline-block;
+}
+.photoblog {
+
+   text-align: center;
+
+
+}
+.email{
+    overflow: hidden;
+    background: #23232d;
+    color: #ffffff;
+    text-align: center;
+}
+.email img {
+	margin-top: 225px;
+}
+.email p {
+	margin: 50px 253px;
+}
+
+input[type="text"] {
+	padding: 8px 5px;
+	/* font-size: 1px; */
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding-right: 90px;
+}
+input[type="submit"] {
+	padding: 8px 45px;
+	/* font-size: 1px; */
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	/* padding-right: 90px; */
+	color: white;
+	background: #7b77c9;
+	margin-bottom: 146px;
+}
+
+
+
+
+
+/* footer
+
+
+*/
+
+
+
+
+
+.footer{
+    text-align: center;
+    margin-bottom: :60px;
+
+}
+
+.footer p{
+    font-size: 12px;
+    color:#cccccc;
+}
+.icon {
+	margin: 60px 0px;
+}
+.icon ul{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.icon ul li{
+   display: inline-block;
+   margin:0 10px;
+
+}
+.icon a{
+    text-decoration: none;
+    color:#666666;
+
+}

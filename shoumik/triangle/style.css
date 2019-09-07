@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+.box{
+    height: 0px;
+    width: 0px;
+    border-bottom: 70px solid blue;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+}
+.box1{
+    margin: 10px;
+    height: 0px;
+    width: 0px;
+    border-bottom: 70px solid black;
+    
+    border-right: 50px solid transparent;
+}
+.box2{
+    height: 0px;
+    width: 0px;
+    border-bottom: 170px solid red;
+    border-left: 130px solid transparent;
+   
+}
+.box3{
+    height: 0px;
+    width: 0px;
+    border-bottom: 70px solid yellow;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+}
