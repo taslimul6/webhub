@@ -1,0 +1,387 @@
+@charset "UTF-8";/*!Theme Name: Photoshop 1
+Theme URI: http://glabebd.com
+Description: The Theme for CSS-Tricks
+Author: Taslimul Hasan
+
+
+
+
+1. typography
+2. header area
+3. hand area 
+4. mobile area
+5. photo area 
+6. subscraibe area 
+7. download area 
+8. footer area
+
+/*  
+
+/* 1. typography area */
+
+@font-face{
+    font-family: "something";
+    src:url("webfonts/something.woff") format("woff");
+    font-family: "something1";
+    src:url("webfonts/gothamroundedbook.woff") format("woff");
+}
+
+body{
+    font-family: something1;
+}
+h3,h2{
+    color: #16a085;
+}
+p{
+    color: #4b4b4b;
+}
+/* header area */
+
+.header_area{
+    background: url(images/main_background.jpg) no-repeat 0 0 / 100% 100%;
+    
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 65%;
+    margin: auto;
+}
+
+.header_area .menu ul{
+    text-align: center;
+    margin-top: 40px;
+    display: block;
+}
+.header_area .menu ul li{
+    display: inline;
+}
+.header_area .menu ul li a{
+    color: white;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    
+    padding: 0 25px;
+}
+.header_area .menu ul li a img{
+    width: 45px;
+    height: auto;
+   
+}
+
+.header_area h2{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 175px;
+    letter-spacing: 5px;
+    padding-bottom: 0;
+    font-weight: bold;
+}
+
+.header_area h5 {
+	color: white;
+	text-align: center;
+	margin-top: 10px;
+	letter-spacing: 2px;
+	margin-bottom: 25px;
+	font-size: 12px;
+}
+.header_area .btn{
+    text-align: center;
+}
+
+
+.btn a {
+	background: #16a085;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 2px;
+	border: 1px solid #16a085;
+	/* display: inline; */
+	/* text-align: center; */
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+
+.icon{
+    text-align: center;
+}
+
+.icon ul {
+	list-style: none;
+	padding: 0;
+	margin-top: 210px;
+}
+.icon ul li {
+	display: inline-block;
+	padding: 0px 5px;
+}
+.icon ul li a{
+    color: #fff;
+}
+
+/* get started area-------------------------------------- */
+
+.get_started{
+    overflow: hidden;
+    background: #f5f6f7;
+
+   
+}
+.description {
+	/* width: 100%; */
+	/* float: left; */
+	background: url(images/hand.png) no-repeat top right;
+	/* background-position: 10px 10px; */
+	background-size: 60% auto;
+	/* display: block; */
+	overflow: hidden;
+	margin-top: 90px;
+	padding-top: 0px;
+}
+.text_area {
+	width: 44%;
+	float: left;
+	margin-top: 14px;
+	margin-bottom: 123px;
+}
+.description h2 {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+    font-size: 16px;
+    color: #16a085;
+}
+.description p {
+	overflow: hidden;
+	letter-spacing: 1px;
+	font-size: 12px;
+	line-height: 23px;
+    margin: 40px 0;
+    display: block;
+    color: #4b4b4b;
+}
+
+
+/* design area---------------------------------------------- */
+
+.design_area {
+	overflow: hidden;
+	background: url(images/mobile.png) no-repeat top left;
+	margin-top: 130px;
+    padding-bottom: 100px;
+    color: #FFFFFF;
+}
+.design{
+    width: 40%;
+    float: right;
+}
+
+.design h2{
+    margin: 0;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.design p {
+	overflow: hidden;
+	letter-spacing: 1px;
+	font-size: 12px;
+	line-height: 23px;
+    margin: 40px 0;
+    display: block;
+}
+.icon2 {
+	margin-top: -34px;
+}
+
+
+
+/* community area------------------------------------ */
+
+.community_area {
+	overflow: hidden;
+	padding: 120px 0;
+	background: #f5f6f7;
+}
+.icon_area{
+    overflow: hidden;
+}
+.icon3{
+    width:3%;
+    float:right
+}
+
+.col1 {
+	width: 32.33333345%;
+	float: left;
+	text-align: center;
+}
+.col1:nth-child(2) img ,
+.col1:nth-child(3) img{
+    width: 100%;
+    height: auto;
+   
+}
+.col1:first-child{
+  
+    margin-top: 30px;
+}
+.col1:nth-child(2){
+    margin-right: 2.3%
+}
+.col1 h3{
+    margin-top: 10px;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.col1 p {
+	width: 45%;
+	/* text-align: center; */
+	margin-left: 86px;
+	font-size: 12px;
+}
+
+
+/* subscribe  area-------------------------- */
+.subcribe_area{
+    overflow: hidden;
+    background: url(images/back.png) no-repeat 0 0 / 100% 100%;
+    text-align: center;
+    padding: 500px 0;
+
+}
+.subcribe_area h2{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    
+    letter-spacing: 5px;
+    
+    font-weight: bold;
+    font-size: 15px;
+}
+
+input[type="email"] {
+	padding: 8px 15px;
+	text-transform: uppercase;
+	font-size: 14px;
+	border-radius: 5px 0px 0px 5px;
+	border: 1px;
+}
+button {
+	
+    padding: 7px 10px;
+    margin-left: -6px;
+    border-radius: 0 4px 4px 0;
+    background: #16a085;
+    color: white;
+    border: none;
+    
+}
+form{
+    margin-top: 25px;
+}
+
+
+/* download area------------------ */
+
+.download_area {
+	overflow: hidden;
+	padding: 80px 0px;
+    text-align: center;
+    background: #f5f6f7;
+}
+.download_area h3{
+	margin: 0;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.download_area p {
+	/* overflow: hidden; */
+	letter-spacing: 1px;
+	font-size: 12px;
+	line-height: 23px;
+	/* margin: 40px 0; */
+	display: inline-block;
+	width: 60%;
+	text-align: center;
+}
+.download {
+	overflow: hidden;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.apple{
+    display: inline-block;
+    margin-right: 10px;
+}
+.play{
+    display: inline-block;
+}
+
+
+.letter {
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #1abc9c;
+	color: white;
+	padding: 8px 20px;
+	font-size: 12px;
+	padding-right: 62px;
+	letter-spacing: 2px;
+	border-radius: 3px 0 0 3px;
+	margin: 0;
+	border: none;
+	padding-bottom: 9px;
+}
+.icn {
+	color: white;
+	background: #16a085;
+	padding: 4px 10px;
+	margin-left: -5px;
+	padding-bottom: 8px;
+	border: none;
+}
+
+
+
+/* footer area----------------------- */
+
+.footer_area {
+	overflow: hidden;
+    padding: 35px 0;
+    background: #FFFFFF;
+}
+.left{
+    width: 60%;
+    float: left;
+}
+.right{
+    width: 30%;
+    float: right;
+}
+
+.footer_area p {
+	/* overflow: hidden; */
+	letter-spacing: 1px;
+	font-size: 12px;
+	line-height: 23px;
+	/* margin: 40px 0; */
+	/* display: inline-block; */
+	width: 60%;
+	/* text-align: center; */
+}
+
+.footer_area img{
+    float: right;
+    
+}
