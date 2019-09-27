@@ -1,0 +1,53 @@
+body{
+	margin:0;
+	background-color:orange;
+	
+}
+
+.header{
+	
+	background-color:red;
+	width:100%;
+	min-height:20px;
+	overflow:hidden;
+	
+	
+}
+
+.content{
+	margin-top:10px;
+	background-color:green;
+	width:65%;
+	padding-left:2%;
+	float:left;
+	overflow:hidden;
+}
+
+.sidebar{
+	margin-top:10px;
+	background-color:yellow;
+	width:30%;
+	padding-left:3%;
+	overflow:hidden;
+}
+.sidebar h1{
+	color:blue;
+	
+}
+
+.footer{
+	background-color:pink;
+	width:100%;
+	min-height:65px;
+}
+
+.header{
+	
+	
+}
+
+.header{
+	
+	
+}
+

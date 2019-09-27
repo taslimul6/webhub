@@ -1,0 +1,184 @@
+
+
+/* header area starts */
+
+.header_area{
+    overflow: hidden;
+    position: relative;
+}
+.header_area .main-menu{
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 30px;
+  
+}
+.header_area ul{
+    margin-left: 60px;
+}
+.list-inline-item:not(:last-child) {
+	margin-right: 2.5rem;
+}
+
+.header_area a{
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    margin: 0 10px;
+    color: #7D7989;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    
+}
+
+.main-photo{
+   
+    width: 100%;
+    height: auto;
+
+}
+
+/* header area ends*/
+
+
+/* intro area starts */
+.intro_area{
+    overflow: hidden;
+    padding: 130px 1px;
+    background: #f7f7f7;
+
+    
+}
+
+.section h3,
+.section h2{
+
+    color: #353738;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Lato' ;
+    font-weight: 700;
+    line-height: 50px;
+    font-size: 25px;
+
+}
+.section p {
+	color: #afb1b2;
+	font-family: 'lato';
+	line-height: 30px;
+}
+
+
+
+/* intro area ends */
+
+/* description area starts */
+
+.description_area{
+    
+    overflow: hidden;
+
+}
+.description_area .photo_area img{
+    width: 100%;
+    height: auto;
+    
+    
+
+}
+.details{
+    margin:80px 0px; 
+    margin-bottom: 0;   
+    
+
+}
+.big_small {
+    position: relative;
+}
+.big_small .seat{
+   
+    position: absolute;
+    bottom: 0;
+    left: -15px;
+}
+.seat1{
+   
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.seat2 {
+	position: absolute;
+	bottom: 0;
+	left: -15px;
+	width: 106%;
+	height: auto;
+}
+
+
+/* description area ends */
+
+
+
+
+
+
+/* tweet area starts */
+
+.tweet_area {
+	background: #f7f7f7;
+	padding: 90px 1px;
+}
+.tweet_area span{
+	color: #afb1b2;
+
+}
+.tweet_area p {
+	font-size: 20px;
+	font-family: 'lato';
+	width: 55%;
+	margin: auto;
+}
+
+
+/* tweet area ends */
+
+
+
+
+
+
+
+.discover {
+	padding: 60px 1px;
+	background: #282f35;
+}
+
+
+
+.discover button {
+    text-transform: uppercase;
+    border: 1px solid #fff; 
+    font-family: 'lato';
+    font-weight: 400;
+    letter-spacing: 1.5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

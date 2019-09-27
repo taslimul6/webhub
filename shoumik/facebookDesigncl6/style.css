@@ -1,0 +1,91 @@
+body {
+	margin:0;
+	
+}
+.con{
+	width:1230px;
+	margin:0 auto;
+	
+	
+}
+
+.header{
+	height:105px;
+	background-color:#405D9B;
+	display:block;
+	
+	
+	
+}
+.logo{
+	float:left;
+	width: 40%;
+	margin: 22px;
+	
+}
+.login {
+	overflow: hidden;
+	width: 40%;
+	margin: 0px;
+	/* height: 105px; */
+	color: white;
+	padding: 30px;
+}
+
+.email {
+	float: left;
+	overflow: hidden;
+	margin-right: 20px;
+}
+.pass{
+	float: left;
+	overflow:hidden;
+	
+	
+}
+.log {
+	float: left;
+	overflow: hidden;
+	margin: 19px;
+}
+
+.log input {
+	background: blue;
+	/* margin: 0; */
+	color: white;
+	border: blue;
+}
+
+.content{
+	
+	overflow:hidden;
+	
+	
+}
+.left {
+	width:60%;
+	float:left;
+	
+}
+.right{
+	width:40%;
+	overflow:hidden;
+	
+	
+}
+
+.footer{
+	width:100%;
+	overflow:hidden;
+	
+	
+}
+
+
+
+
+.header{
+	
+	
+}
+

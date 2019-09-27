@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+}
+/* 
+.box1{
+    height: 300px;
+    width: 300px;
+    background:blue;
+    position: absolute;
+    animation: taslimul 5s;
+}
+
+@keyframes taslimul{
+    5%{
+        left:10px;
+        top:10px;
+    }
+
+    45%{
+        left: 100px;
+        top:40px;
+    }
+
+    85%{
+        left: 500px;
+        top:40px;
+    }
+
+    95%{
+        left: 600px;
+        top:40px;
+    }
+
+} */
+
+.box2{
+    height: 100px;
+    width: 100px;
+    background:blue;
+    margin-left: 500px;
+    margin-top: 100px;
+    position: absolute;
+    animation: taslimul2 5s linear;
+    animation-iteration-count: 3;
+}
+
+@keyframes taslimul2{
+    5%{
+        height: 100px;
+        width: 100px;
+    }
+
+    45%{
+        height: 200px;
+        width: 150px;
+        background:pink;
+    }
+
+    85%{
+        height: 250px;
+        width: 100px;
+        background:orange;
+    }
+
+    95%{
+        height: 500px;
+        width: 500px;
+        background:black;
+    }
+
+}

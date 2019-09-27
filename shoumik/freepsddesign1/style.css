@@ -24,7 +24,7 @@ header h2{
 }
 header p {
 	font-size: 10px;
-	margin: 0 331px;
+	width: 90%;
 	display: inline-block;
 	margin-bottom: 90px;
 }
@@ -248,12 +248,15 @@ color: white;
     background: #23232d;
     color: #ffffff;
     text-align: center;
+    display: block;
 }
 .email img {
 	margin-top: 225px;
 }
 .email p {
-	margin: 50px 253px;
+    width: 40%;
+    text-align: center;
+   
 }
 
 input[type="text"] {

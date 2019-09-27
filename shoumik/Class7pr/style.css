@@ -1,0 +1,70 @@
+body{
+    margin: auto;
+    background: #27ae60;
+}
+
+
+
+
+
+.box1{
+width: 200px;
+height: 200px;
+background: red;
+margin: auto;
+display: block;
+
+}
+
+
+.box2{
+    width: 50px;
+    height: 50px;
+    background: rgb(105, 7, 7);
+    position: absolute;
+    right: 0;
+    top: 0;
+  
+    
+    }
+    
+    
+    
+.box3{
+    width: 50px;
+    height: 50px;
+    background: rgb(29, 60, 160);
+    position: fixed;
+    left: 0;
+    top:5px;
+    color:#ffffff;
+  
+    
+    }
+        
+    
+.box4{
+  
+    height:1700px;
+    background: #d35400;
+    background-image: url(images/box.jpg);
+    background-repeat: no-repeat;
+    /* background-size:cover; */
+    background-size: 400px auto;
+    /* background-position: right bottom; */
+    background-position: top center;
+    background-attachment: fixed;
+    /* background-attachment: scroll; */
+
+    }
+
+.headline{
+
+    padding: 10px 0px;
+    background: red;
+    color: wheat;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+}

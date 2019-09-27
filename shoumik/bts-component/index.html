@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bootstrap components</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    
+
+    <div class="btn btn-success">hi <span class="fab fab-facebook"></span></div>
+
+    <h3>images</h3>
+
+    <img class="img-fluid" src="images/kaif.jpg" alt="kaif">
+    <img class="img-thumbnail rounded float-left" src="images/kaift.jpg" alt="kaif">
+    <img class="img-thumbnail float-right" src="images/kaift.jpg" alt="kaif">
+    <img class="img-thumbnail float-right" src="images/kaift.jpg" alt="kaif">
+    <img class="img-thumbnail" src="images/kaift.jpg" alt="kaif">
+    <img class="img-thumbnail mx-auto d-block" src="images/kaift.jpg" alt="kaif">
+
+
+    <h3>table</h3>
+    <table class="table table-success table-striped table-bordered table-hover">
+        <caption>List of users</caption>
+        <thead class="thead-light">
+
+            <tr>
+                <th>#</th>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Adress</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr >
+                <th>1</th>
+                <td>Taslimul</td>
+                <td>hasan</td>
+                <td>Joypurhat</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>Afraim</td>
+                <td>Kabir</td>
+                <td>Dinajpur</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td>Abdullah al</td>
+                <td>Mamun</td>
+                <td>bogra</td>
+            </tr>
+            <tr >
+                <th>4</th>
+                <td>Khaled saifullah</td>
+                <td>shuvo</td>
+                <td class="table-dark">Noakhali</td>
+            </tr>
+            <tr>
+                <th>5</th>
+                <td>Robiul islam</td>
+                <td>tazel</td>
+                <td>barisall</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+    <h3>Figure</h3>
+    <figure class="figure">
+            <img src="images/kaif.jpg" class="figure-img img-fluid rounded" alt="...">
+            <figcaption class="figure-caption">A caption for the above image.</figcaption>
+    </figure>
+
+
+
+
+     <h2>dropdown</h2> 
+    <div class="dropdown">
+        <a href="" class="btn btn-success dropdown-toggle" data-toggle="dropdown" id="drop">click here</a>
+
+        <div class="dropdown-menu" aria-labelledby="drop">
+            <a class="dropdown-item" href="#">photos</a>
+            <a class="dropdown-item" href="#">phones</a>
+            <a class="dropdown-item" href="#">telephone</a>
+            <a class="dropdown-item" href="#">mobile</a>
+            <a class="dropdown-item" href="#">airphone</a>
+        </div>  
+   
+    </div>
+
+
+    <h3>btn group</h3>
+    <div class="btn-group">
+
+        <div class="dropdown">
+                <a href="" class="btn btn-success dropdown-toggle" data-toggle="dropdown" id="drop">click here</a>
+        
+                <div class="dropdown-menu" aria-labelledby="drop">
+                    <a class="dropdown-item" href="#">photos</a>
+                    <a class="dropdown-item" href="#">phones</a>
+                    <a class="dropdown-item" href="#">telephone</a>
+                    <a class="dropdown-item" href="#">mobile</a>
+                    <a class="dropdown-item" href="#">airphone</a>
+                </div>  
+            
+        </div>
+        <div class="dropdown">
+                <a href="" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" id="drop">click me</a>
+        
+                <div class="dropdown-menu" aria-labelledby="drop">
+                    <a class="dropdown-item" href="#">photos</a>
+                    <a class="dropdown-item" href="#">phones</a>
+                    <a class="dropdown-item" href="#">telephone</a>
+                    <a class="dropdown-item" href="#">mobile</a>
+                    <a class="dropdown-item" href="#">airphone</a>
+                </div>  
+            
+        </div>
+        <div class="dropdown">
+                <a href="" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" id="drop">click click</a>
+        
+                <div class="dropdown-menu" aria-labelledby="drop">
+                    <a class="dropdown-item" href="#">photos</a>
+                    <a class="dropdown-item" href="#">phones</a>
+                    <a class="dropdown-item" href="#">telephone</a>
+                    <a class="dropdown-item" href="#">mobile</a>
+                    <a class="dropdown-item" href="#">airphone</a>
+                </div>  
+            
+        </div>
+
+    </div>
+
+    <h2>split dropdown</h2>
+    <div class="btn-group">
+        
+        <button href="" class="btn btn-primary" >action</button>
+        <button href="" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" id="drop"></button>
+
+        <div class="dropdown-menu" aria-labelledby="drop">
+            <a class="dropdown-item" href="#">photos</a>
+            <a class="dropdown-item" href="#">phones</a>
+            <a class="dropdown-item" href="#">telephone</a>
+            <a class="dropdown-item" href="#">mobile</a>
+            <a class="dropdown-item" href="#">airphone</a>
+        </div>  
+            
+      
+        
+    </div>
+
+
+
+
+  Example split danger button
+<div class="btn-group">
+        <button type="button" class="btn btn-danger">Action</button>
+        <button type="button" class="btn btn-danger dropdown-toggle " data-toggle="dropdown"  >
+         
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </div>
+
+
+      <h1>dropsdown sizing</h1>
+
+      
+
+       <h2>button</h2>
+
+       <div class="btn btn-primary">primary</div>
+       <div class="btn btn-link">link</div>
+       <div class="btn btn-outline-danger">outline danger</div>
+       <div class="btn btn-outline-success btn-lg">outline success lg</div>
+       <div class="btn btn-outline-success btn-sm">outline success sm</div>
+       <div class="btn btn-outline-success btn-md">outline success md</div>
+       <div class="btn btn-outline-danger btn-block">outline danger block</div>
+       <div class="btn btn-outline-success btn-block">outline success block</div>
+
+<br>
+<br>
+<br>
+
+       <h2>btn group</h2>
+  
+       
+       <div class="btn-group">
+           <div class="btn btn-success">btn success</div>
+           <div class="btn btn-success">btn success</div>
+           <div class="btn btn-success">btn success</div>
+       </div>
+
+
+
+       <div class="btn-toolbar my-2 justify-content-center">
+        <div class="btn-group mr-2">
+            <div class="btn btn-success">btn success</div>
+            <div class="btn btn-success">btn success</div>
+            <div class="btn btn-success">btn success</div>
+        </div>
+        <div class="btn-group mr-2">
+            <div class="btn btn-success">btn success</div>
+            <div class="btn btn-success">btn success</div>
+            <div class="btn btn-success">btn success</div>
+        </div>
+        <div class="btn-group mr-2">
+            <div class="btn btn-success">btn success</div>
+            <div class="btn btn-success">btn success</div>
+            <div class="btn btn-success">btn success</div>
+        </div>
+       </div>
+
+
+       <br><br>
+       <h3>sizing</h3>
+
+       <div class="btn-toolbar my-2 justify-content-between">
+        <div class="btn-group btn-group-sm mr-2">
+            <div class="btn btn-success">btn success</div>
+            <div class="btn btn-success">btn success</div>
+            <div class="btn btn-success">btn success</div>
+        </div>
+        <div class="btn-group btn-group-md mr-2">
+            <div class="btn btn-success">btn success</div>
+            <div class="btn btn-success">btn success</div>
+            <div class="btn btn-success">btn success</div>
+        </div>
+        <div class="btn-group btn-group-lg mr-2">
+            <div class="btn btn-success">btn success</div>
+            <div class="btn btn-success">btn success</div>
+            <div class="btn btn-success">btn success</div>
+        </div>
+       </div>
+
+
+
+       <h3>nesting</h3>
+       <div class="btn-toolbar justify-content-center">
+
+       
+
+            <div class="btn-group dropup ">
+                <button class="btn btn-danger">1</button>
+                <button class="btn btn-danger">2</button>
+                <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown">dropdown</button>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-item">alpha</li>
+                    <li class="dropdown-item active">beya</li>
+                    <li class="dropdown-item">gsrma</li>
+                </ul>
+            </div>
+        </div>
+
+
+       <div class="btn-group-vertical">
+           <button class="btn btn-danger">1</button>
+           <button class="btn btn-danger">2</button>
+           <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown">dropdown</button>
+           <ul class="dropdown-menu">
+               <li class="dropdown-item">alpha</li>
+               <li class="dropdown-item">beya</li>
+               <li class="dropdown-item">gsrma</li>
+           </ul>
+       </div>
+
+    
+
+<h2>forms </h2>
+ 
+<form action="">
+    <div class="form-group">
+        <label for="email">Email Adress</label>
+        <input type="email" id="email" placeholder="Enter email adress" class="form-control">
+        <small class="form-text text-muted">we will never share your email with anyone else</small>
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Password" class="form-control">
+    </div>
+    <div class="input-group form-check">
+        <input type="checkbox" class="form-check-input" id="check">
+        <label for="check" class="form-check-label">check me out</label>
+    </div>
+    <button type="submit" class="btn btn-outline-danger">submit</button>
+
+</form>
+<br>
+<br>
+<br>
+<br>
+
+<h3>FORM CONTROL</h3>
+
+<form action="">
+    <div class="form-group ">
+        <label  for="email">Enter email address</label>
+        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+    </div>
+    <div class="form-group">
+        <select name="" id="" class="form-control">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <select name="" id="" class="form-control" multiple>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+        </select>
+    </div>
+</form>
+
+
+<br>
+<br><br><br>
+
+<form action="">
+
+    <div class="form-group">
+        <label for="file">Example file input</label>
+        <input type="file" id="file" class="form-control-file">
+    </div>
+</form>
+
+    
+</body>
+</html>
