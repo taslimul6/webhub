@@ -1,0 +1,16 @@
+body{
+	margin:0;
+}
+.box{
+	height:100px;
+	width:100% ;
+	background-color:black;
+	background-image:url("images/box.jpg");
+	background-repeat:no-repeat;
+	background-size:400px auto;
+	background-position:center;
+	background-attachment:scroll;
+	!--background:url("images/box.jpg") black repeat center/400px
+	
+	
+}

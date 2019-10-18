@@ -1,0 +1,41 @@
+body{
+	margin:0px;
+}
+.box{
+	height:500px;
+	width:500px;
+	background:orange;
+	position:relative;
+}
+.another-box{
+	height:200px;
+	width:200px;
+	background:green;
+	position:absolute;
+	right:0;
+	bottom:0;
+	
+}
+.boxx{
+	height:400px;
+	width:500px;
+	background:red;
+	float:left;
+	
+}
+.another-boxx{
+	height:400px;
+	width:500px;
+	background:yellow;
+	overflow:hidden;
+	
+}
+@media ( max-width:430px){
+	.boxx{
+		background:black;
+		float:none;
+	}
+	.another-boxx{
+	background:orange;	
+	}
+}

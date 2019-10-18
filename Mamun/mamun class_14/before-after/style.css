@@ -1,0 +1,55 @@
+body {
+	margin:0;
+	font-family:Segoe UI;
+}
+.paraghrap {
+	height:300px;
+	width:300px;
+	background:#CAD3C8;
+	text-align:center;
+	margin:auto;
+	text-transform:capitalize;
+	margin-top:150px;
+	position:relative;
+	transition:4s;
+    border-radius: 25px;
+	border: 2px solid red;
+}
+.paraghrap:before {
+	content:"";
+	height:150px;
+	width:150px;
+	background:#F8EFBA;
+	clear:both;
+	display:block;
+	right:-150px;
+	bottom:-150px;
+	position:absolute;
+	transition:4s;
+    border-radius: 25px;
+}
+.paraghrap:after {
+	content:"";
+	height:150px;
+	width:150px;
+	background:#BDC581;
+	clear:both;
+	display:block;
+	right:100%;
+	bottom:100%;
+	position:absolute;
+	transition:4s;
+    border-radius: 25px;
+}
+.paraghrap:hover:before {
+	
+	right:100%;
+	bottom:100%;
+}
+.paraghrap:hover:after {
+	right:-150px;
+	bottom:-150px;
+}
+.paraghrap:hover {
+	transform: rotate(360deg)
+}

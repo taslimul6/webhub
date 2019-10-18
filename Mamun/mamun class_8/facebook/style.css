@@ -1,0 +1,17 @@
+body{
+	margin:0
+}
+.header{
+	background:#3A5795;
+	
+}
+.logo{
+	width:70%;
+	float:left;
+	
+}
+.login-area{
+	width:30%;
+	overflow:hidden;
+	color:white;
+}

@@ -1,0 +1,119 @@
+body {
+	margin: 0;
+}
+.container {
+	width: 74%;
+	margin: auto;
+}
+.header-area {
+	background-color: #3A5795;
+	padding: 10px 0;
+	font-family: tahoma;
+	color:white;
+}
+
+.header-area .logo-area {
+	width: 30%;
+	float: left;
+}
+.header-area .login-area {
+	overflow: hidden;
+	width: 70%;
+}
+label{
+	display:block;
+}
+input{
+	display:block;
+}
+input[ type="checkbox"]{
+	float:left;
+	margin-left:0;
+}
+label{
+	color: #FFFFFF;
+	font-size:12px;
+	cursor:pointer;
+}
+input{
+	margin:5px 0 3px;
+	padding:2px;
+	border: 1px solid #1D2A5B;
+}
+a{
+	color: #8CACC3;
+	font-size: 12px;
+	text-decoration:none;
+}
+.username-area{
+	float:left;
+	margin-right:15px;
+}
+.password-area{
+	float:left;
+	overflow:hidden;
+	margin-right:15px;
+}
+.submit-area{
+	float:left;
+}
+label[for="keep"]{
+	margin-top:4px;
+	display:inline-block;
+	overflow:hidden;
+	margin-left:2px;
+	color: #8CACC3;
+}
+.password-area a:hover{
+	text-decoration:underline;
+}
+input[ type="submit"]{
+	margin-top:20px;
+	background-color:#5A74A8;
+	color:white;
+	font-size:12px;	
+}
+ form {
+	float: right;
+}
+
+.main-area{
+	background-color:white;
+	height:450px;
+}
+.footer-area{
+	height:100px;
+	background-color:#5A74A8;
+}
+
+@media all and (max-width: 768px){
+	.header-area .logo-area{
+		float:none;
+		margin-bottom:20px;
+		text-align:center;
+		width:100%;
+	}
+	.header-area .login-area{
+		width:100%;
+	}
+	form{
+		float:none;
+		width:368px;
+		margin:auto;
+	}
+}
+@media all and (max-width: 400px) {
+	form {
+		width: auto;
+	}
+	.username-area{
+		float:none;
+	}
+	.password-area{
+		float:none;
+	}
+	input[type="text"],
+	input[type="password"]{
+		width:100%;
+	}
+}

@@ -1,0 +1,21 @@
+body{
+	margin:0;
+}
+
+  img{
+	height:300px;
+	width:300px;
+	margin:auto;
+	display:block;
+	
+
+}
+
+.box{
+	height:300px;
+	width:300px;
+	background:red;
+	text-align:center;
+	margin:auto;
+
+}

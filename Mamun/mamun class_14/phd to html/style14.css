@@ -1,0 +1,259 @@
+body {
+	margin:0;
+	font-family:Segoe UI;
+}
+
+
+/*header-area*/
+.header-area {
+	background-color:#23232D;
+	color:white;
+	text-align:center;
+	padding:20px 0px;
+}
+.header-area a {
+	color:white;
+	text-decoration:none;
+}
+.container {
+	width:60%;
+	margin:auto;
+}
+.logo-area img {
+	width:70px;
+	height:auto;
+}
+.text-area p {
+	font-size:12px;
+	margin-bottom:80px;
+}
+.text-area h2 {
+	font-size:40px;
+	text-transform:uppercase;
+	margin-top:73px;
+}
+.next-section a i {
+	border:1px solid white;
+	padding:10px;
+	height:12px;
+	width:12px;
+	font-size: 12px;
+	border-radius:50%;
+}
+
+
+/*about*/
+.about {
+	background-image: url("images/background.png");
+	background-size:cover;
+	
+}
+.about h2{
+	text-align:center;
+	text-transform:uppercase;
+	color:#464B4F;
+}
+.about h4{
+	text-transform:uppercase;
+}
+
+.content p {
+	text-align: center;
+}
+.coloum-area{
+	overflow:hidden;
+}
+.coloum {
+	float:left;
+	width:31.33%;
+	margin:0 1%;
+	overflow:hidden;
+}
+.coloum img {
+	width:100%;
+	height:auto;
+}
+			/*
+			.coloum {
+				float:left;
+				width:31.33%;
+				margin:0 1%;
+				overflow:hidden;
+			}	
+			 
+			or
+
+			.coloum {
+				float:left;
+				width:32%;
+				margin-right:2%;
+				overflow:hidden;
+			}
+			.coloum:nth-child(3n){
+				margin-right:0;
+			} 
+			*/
+
+	
+/* portfolio */
+.portfolio {
+	background:#23232D;
+	padding:30px 0;
+}
+.my-work h2 {
+	color:white;
+	text-align:center;
+	text-transform:uppercase;
+}
+.work-category {
+	overflow:hidden;
+	margin-bottom:30px;
+}
+.work-category ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-align:center;
+}
+.work-category ul li {
+	display:inline;
+	margin:0 5px;
+}
+.work-category ul li a {
+	color:white;
+	text-decoration:none;
+	text-transform:capitalize;
+	padding:5px 0;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+}
+.work-category ul li a:hover {
+	border-bottom:2px solid #7C77C9;
+}
+.work-category ul .fixed a {
+	border-bottom:2px solid #7C77C9;
+}
+.work-coloum {
+	text-align:center;
+	overflow:hidden;
+	margin-bottom:60px;
+}
+.work-coloum a {
+	color:white;	
+	text-transform:capitalize;
+	text-decoration:none;
+	font-weight:normal;
+}
+.button {
+	text-align:center;
+}
+.button a {
+	color:white;
+	text-transform:capitalize;
+	background:#7C77C9;
+	text-decoration:none;
+	padding:6px 15px;
+	border-radius:5px;
+}
+
+
+/*photography*/
+.photography {
+	margin:40px 0;
+	
+}
+.photography h2{
+	text-align:center;
+	text-transform:uppercase;
+	font-size:40px;
+	color:#464b4f;
+}
+.photography p {
+	text-align:center;
+	color:#adaeae;
+}
+.coloum-area {
+	padding:20px 0 40px 0;
+	overflow:hidden;
+}
+.coloum-area .coloum {
+float:left;
+width:31.33%;
+margin:0 1%;
+overflow:hidden;
+}
+.button1 {
+	text-align:center;
+	color:white;
+	text-decoration:none;
+	text-transform:capitalize;
+	padding:6px 10px;
+	border-radius:5px;
+}
+.button1 a {
+	color:white;
+	text-decoration:none;
+	text-transform:capitalize;
+	padding:6px 10px;
+	border-radius:5px;
+	background:#7C77C9;
+}
+
+
+/*Subscribe*/	
+.Subscribe {
+	background:#23232e;
+	text-align:center;
+	color:white;
+	padding:100px 0;
+}
+.infinity img {
+	width:40px;
+}
+.Subscribe p {
+	font-size:15px;
+}
+.Subscribe form {
+	padding:5px 0;
+}
+.Subscribe form input {
+	color: #666666;;
+	font-size:18px;
+	border-radius:5px;
+	border:none;
+	padding:5px 15px;
+	font-family:Segoe UI;
+}
+form input[type="text"]{
+	margin-right:10px;
+}
+form input[type="submit"]{
+	background:#7C77C9;
+	color:white;
+	cursor:pointer;
+}
+
+
+/*footer-area*/
+.footer-area {
+	padding:50px 0;
+	background-image: url("images/background.png");
+	background-size:cover;
+}
+.social-profiles ul {
+	margin: 0;
+	padding: 0;
+	list-style:none;
+	text-align:center;
+}
+.social-profiles ul li {
+	display:inline;
+	margin:0 10px;
+}
+.social-profiles ul li a{
+	color:#cccccc;
+}
+.copyright {
+	text-align:center;
+	color:#cccccc;
+}

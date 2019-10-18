@@ -1,0 +1,211 @@
+body {
+	margin: 0;
+}
+
+
+.container {
+	width: 90%;
+	margin: auto;
+}
+
+.header-area {
+	background-color: #3A5795;
+	padding: 10px 0;
+	font-family: tahoma;
+	
+}
+
+.header-area .logo-area {
+	width: 30%;
+	float: left;
+}
+.header-area .login-area {
+	overflow: hidden;
+	width: 70%;
+}
+
+.login-area form {
+	float: right;
+}
+.login-area label, 
+.login-area input {
+	display: block;
+}
+.login-area input[type="checkbox"] {
+	float: left;
+	margin-left: 0;
+}
+
+.login-area label {
+	color: #FFFFFF;
+	font-size: 12px;
+	cursor: pointer;
+}
+.login-area input {
+	margin: 5px 0 2px;
+	border: 1px solid #1D2A5B;
+	padding: 2px;
+}
+.login-area a {
+	color: #8CACC3;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.login-area .username-area {
+	float: left;
+	margin-right: 15px;
+}
+.login-area .password-area {
+	overflow: hidden;
+	float: left;
+	margin-right: 15px;
+}
+.login-area .submit-area {
+	overflow: hidden;
+	float: left;
+}
+
+
+.username-area label:last-child {
+	margin-top: 3px;
+	display: inline-block;
+	overflow: hidden;
+	margin-left: 2px;	
+	color: #8CACC3;
+}
+
+.login-area a:hover {
+	text-decoration: underline;
+}
+
+.submit-area input {
+	background-color: #5A74A8;
+	cursor: pointer;
+	color: #FFFFFF;
+	margin-top: 20px;
+	font-size: 12px;
+}
+
+
+@media all and (max-width: 768px){
+	.header-area .logo-area{
+		float:none;
+		margin-bottom:20px;
+		text-align:center;
+		width:100%;
+	}
+	.header-area .login-area{
+		width:100%;
+	}
+	form{
+		float:none;
+		width:368px;
+		margin:auto;
+	}
+}
+@media all and (max-width: 400px) {
+	form {
+		width: auto;
+	}
+	.username-area{
+		float:none;
+	}
+	.password-area{
+		float:none;
+	}
+	input[type="text"],
+	input[type="password"]{
+		width:100%;
+	}
+}
+/*main-area*/
+.main-area{
+	background-image: linear-gradient(#FFFFFF, #D4D9E9);
+	font-family: tahoma, arial;
+}
+.mobile-area{
+	width:50%;
+	float:left;
+	margin-right:10%;
+}
+.signup-area{
+	width:40%;
+	overflow:hidden;
+}
+.mobile-image{
+	float:left;
+	margin-left:50px;
+	margin-right:20px;
+}
+.mobile-text {
+	overflow:hidden;
+}
+.mobile-text h4{
+	font-size:14px;
+	color:black;
+	font-weight:normal;	
+}
+.main-area p{
+	color:#9197AE;
+	font-size:12px;
+}
+.mobile-text h4,
+.mobile-text p{
+	margin:0px;
+}
+.mobile-text a{
+	color:black;
+	float: right;
+	margin-top: 60px;
+	text-decoration:none;
+	font-size:12px;
+	border: 1px solid #000000;
+	padding:1px 3px;
+	background: linear-gradient(#FFFFFF, #E6E6E6);
+
+}
+.mobile{
+	margin-top:30px;
+	background:url('images/background.png') no-repeat;
+	background-position: left bottom;
+	min-height:290px;
+}
+/*signup-area*/
+.signup-area{
+	padding-top:20px;
+}
+.signup-area h1{
+	font-family: 'Lato', sans-serif;
+	font-size:36px;
+	margin: 0;
+}
+.signup-area h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+	font-weight:400;
+	margin: 0;
+}
+.signup-area form{
+	margin-top:20px;
+}
+.signup-area input[type="text"],
+.signup-area input[type="password"] {
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+	border: 1px solid #C1CADA;
+	box-sizing: border-box;
+	padding: 10px 5px;
+	font-size: 18px;
+	border-radius: 4px;
+}
+.signup-area input[type="text"]:first-child{
+	width:48%;
+	float:left;
+	margin-right:4%;
+}
+.signup-area input[type="text"]:nth-child(2){
+	width:48%;
+	overflow:hidden;
+}

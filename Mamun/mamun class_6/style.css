@@ -1,0 +1,34 @@
+body{
+	margin:0
+}
+.header-area{
+	background:#2980b9;
+	color: #FFFFFF;
+	overflow:hidden;
+}
+.middle-area {
+	overflow:hidden;
+}
+.left-sidebar {
+	width: 20%;
+	background: #e74c3c;
+	overflow: hidden;
+	float: left;
+	
+}
+.content{
+	width: 60%;
+	overflow: hidden;
+	float: left;
+	
+}
+.right-sidebar {
+	width: 20%;
+	background: #e74c3c;
+	overflow: hidden;
+}
+.footer-area {
+	background: #2c3e50;
+	overflow: hidden;
+	color: #FFFFFF;
+}

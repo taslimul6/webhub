@@ -1,0 +1,10 @@
+@media all and (max-width: 768px) {
+	.coloum{
+		width: 48%;
+	}
+}
+@media all and (max-width: 600px) {
+	.coloum {
+		width: 98%;
+	}
+}
